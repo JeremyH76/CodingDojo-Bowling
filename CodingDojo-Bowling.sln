@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo-Bowling", "CodingDojo-Bowling\CodingDojo-Bowling.csproj", "{F637AB47-3004-41A4-B513-80ABB362504E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{D1016347-657C-4374-9BB3-274EFDD45844}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F637AB47-3004-41A4-B513-80ABB362504E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F637AB47-3004-41A4-B513-80ABB362504E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F637AB47-3004-41A4-B513-80ABB362504E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F637AB47-3004-41A4-B513-80ABB362504E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1016347-657C-4374-9BB3-274EFDD45844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1016347-657C-4374-9BB3-274EFDD45844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1016347-657C-4374-9BB3-274EFDD45844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1016347-657C-4374-9BB3-274EFDD45844}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8770AC6C-1316-4111-9EC6-B7BD1C1676BE}
+	EndGlobalSection
+EndGlobal
