@@ -112,7 +112,7 @@ namespace TestProject
         public void TestLastFrame()
         {
             BowlingGame game = new BowlingGame("-- -- -- -- -- -- -- -- -- 8/3");
-            Assert.Equal(16, game.Result);
+            Assert.Equal(13, game.Result);
         }
 
         [Fact]
@@ -133,7 +133,7 @@ namespace TestProject
         public void TestLastFrameWithStrikeBefore()
         {
             BowlingGame game = new BowlingGame("-- -- -- -- -- -- -- -- X 8/3");
-            Assert.Equal(36, game.Result);
+            Assert.Equal(33, game.Result);
         }
 
         [Fact]
