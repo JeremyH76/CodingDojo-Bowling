@@ -149,5 +149,12 @@ namespace TestProject
             BowlingGame game = new BowlingGame("03 X X X X X X 9/ 9- XX8");
             Assert.Equal(228, game.Result);
         }
+
+        [Fact]
+        public void Test300()
+        {
+            BowlingGame game = new BowlingGame("X X X X X X X X X XXX");
+            Assert.Equal(300, game.Result);
+        }
     }
 }
